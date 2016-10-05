@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<audio src="棋子音效.mp3" class="audi"></audio>
+<audio  src="望江南.mp3" class="background-music"></audio>
+<div class="tit-top">
+ <div class="center-listbox">
+     <span class="top-k"></span>
+     <span class="s-b">胜败乃兵家常事</span>
+ </div>
+<ul class="operation">
+    <li class="action">开始游戏
+    </li>
+    <div class="action-one">
+        <label class="people" for="id">人人对战<input type="checkbox" id="id"></label>
+        <label class="AI" id="ids">人机对战<input type="checkbox" id="ids" ></label>
+    </div>
+    <li class="reset">重新开始</li>
+</ul>
+<div class="explain">游戏规则</div>
+<div class="explains">退出游戏</div>
+<div class="explain-list">双方轮流落子,直到某一方首先 在棋盘的横线,纵线或斜线上形成连续五子或五子以上,则该方就算获胜</div>
+ <canvas width="450" height="450" class="canvas">
+ </canvas>
+</div>
+<!--<div class=""></div>-->
+</body>
+</html>

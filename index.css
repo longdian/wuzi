@@ -1,0 +1,200 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  overflow: hidden;
+  background: #000; }
+
+.tit-top {
+  width: 1000px;
+  height: 800px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: url("image/77.jpg") no-repeat;
+  background-size: cover; }
+
+.center-listbox {
+  font-family: 仿宋;
+  font-size: 36px;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  z-index: 333; }
+  .center-listbox .top-k {
+    width: 100%;
+    height: 50px;
+    background: url("image/33.png") no-repeat;
+    background-size: cover;
+    float: left; }
+  .center-listbox .s-b {
+    width: 100%;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    font-size: 24px; }
+
+.topkk {
+  top: 108px;
+  transition: top ease 2s; }
+
+.canvas {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background-size: cover;
+  opacity: 0; }
+
+.opacity {
+  opacity: 1;
+  transition: opacity ease 6s; }
+
+.operation {
+  width: 150px;
+  height: 400px;
+  position: relative;
+  top: 130px;
+  left: -400px; }
+  .operation .action {
+    width: 100%;
+    height: 50px;
+    background: url("image/r1.gif") no-repeat;
+    background-size: cover;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer; }
+  .operation .active {
+    background: url("image/2.gif") no-repeat;
+    background-size: cover; }
+  .operation .reset {
+    width: 100%;
+    height: 50px;
+    background: url("image/66.gif") no-repeat;
+    background-size: cover;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 150px; }
+
+.left {
+  left: 70px;
+  transition: left ease 6s; }
+
+.action-one {
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  top: 50px;
+  transition: transform .8s ease; }
+  .action-one .people {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    line-height: 50px;
+    color: #ccc;
+    text-align: center; }
+    .action-one .people input {
+      width: 20px;
+      height: 20px;
+      position: relative;
+      right: 0;
+      top: 5px;
+      bottom: 0;
+      left: 10px;
+      margin: auto; }
+  .action-one .AI {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    color: #ccc;
+    line-height: 50px;
+    text-align: center; }
+    .action-one .AI input {
+      width: 20px;
+      height: 20px;
+      position: relative;
+      right: 0;
+      top: 5px;
+      bottom: 0;
+      left: 10px;
+      margin: auto; }
+
+.explain {
+  position: absolute;
+  right: -400px;
+  top: 215px;
+  width: 150px;
+  height: 50px;
+  background: red;
+  background: url("image/444.gif") no-repeat;
+  background-size: cover;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer; }
+
+.explains {
+  position: absolute;
+  right: -400px;
+  top: 362px;
+  width: 150px;
+  height: 50px;
+  background: red;
+  background: url("image/66.gif") no-repeat;
+  background-size: cover;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer; }
+
+.right {
+  right: 70px;
+  transition: right ease 6s; }
+
+.explain-list {
+  position: absolute;
+  width: 150px;
+  right: 100px;
+  top: 330px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ccc;
+  height: 0;
+  opacity: 0;
+  text-align: center;
+  text-indent: 2em;
+  transition: height ease .8s,opacity ease .8s; }
+
+.xialas {
+  height: 120px;
+  width: 150px;
+  opacity: 1;
+  transition: height ease .8s,opacity ease 3s; }
+
+.xiala {
+  height: 100px;
+  width: 100%;
+  opacity: 1;
+  transition: height ease .8s,opacity ease 3s; }
